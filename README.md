@@ -23,6 +23,13 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: Computer vision, multimodal AI, dataset management
   - **Website**: https://www.deeplake.ai/
 
+- **Zilliz Cloud** - Managed Milvus vector database service
+  - **Managed Milvus** - Fully managed vector database in the cloud
+  - **High performance** - Optimized for large-scale vector operations
+  - **Auto-scaling** - Automatic scaling based on workload
+  - **Use case**: Production vector search, AI applications, similarity search
+  - **Website**: https://zilliz.com/cloud
+
 - **ActiveLoop** - Platform for building AI applications with Deep Lake
   - **Integration** - Seamless Deep Lake integration
   - **Use case**: AI application development, data pipeline management
@@ -34,6 +41,68 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Certifications** - Professional Neo4j certifications available
   - **Use case**: Social networks, recommendation engines, fraud detection
   - **Website**: https://neo4j.com/
+
+### NLP & Text Processing
+#### Named Entity Recognition (NER)
+- **spaCy** - Industrial-strength NLP library
+  - **Pre-trained models** - High-accuracy NER models for multiple languages
+  - **Custom training** - Train custom NER models for domain-specific entities
+  - **Use case**: Information extraction, document processing, data cleaning
+  - **Website**: https://spacy.io/
+
+- **Hugging Face Transformers** - State-of-the-art transformer models
+  - **BERT, RoBERTa, DistilBERT** - Pre-trained models for NER
+  - **Easy fine-tuning** - Simple API for custom NER models
+  - **Use case**: Advanced NLP tasks, research, production applications
+  - **Website**: https://huggingface.co/
+
+- **Stanza** (by Stanford) - Multi-language NLP toolkit
+  - **Multi-language support** - 70+ languages supported
+  - **Stanford quality** - Research-grade NLP models
+  - **Use case**: Multi-language applications, research, academic projects
+  - **Website**: https://stanfordnlp.github.io/stanza/
+
+- **Flair** - Simple framework for state-of-the-art NLP
+  - **Zero-shot learning** - No training data required for many tasks
+  - **Contextual embeddings** - Advanced embedding techniques
+  - **Use case**: Quick prototyping, research, production NLP
+  - **Website**: https://github.com/flairNLP/flair
+
+- **OpenAI/GPT-4/Claude** - Large language model APIs
+  - **Zero-shot NER** - Extract entities without training
+  - **Flexible prompting** - Custom entity extraction strategies
+  - **Use case**: Quick prototyping, flexible entity extraction
+  - **APIs**: OpenAI, Anthropic Claude
+
+#### Relationship Extraction
+- **OpenIE (Stanford)** - Open Information Extraction
+  - **Open-domain extraction** - Extract relationships from any text
+  - **Triple extraction** - Subject-predicate-object relationships
+  - **Use case**: Knowledge graph construction, information extraction
+  - **Website**: https://nlp.stanford.edu/software/openie.html
+
+- **spaCy + Dependency Parsing** - Rule-based relationship extraction
+  - **Linguistic patterns** - Grammar-based relationship extraction
+  - **Custom rules** - Domain-specific relationship patterns
+  - **Use case**: Structured information extraction, domain-specific applications
+
+- **REBEL** - Relation extraction with BERT
+  - **BERT-based extraction** - State-of-the-art relation extraction
+  - **Pre-trained models** - Ready-to-use relation extraction
+  - **Use case**: Knowledge graph construction, research
+  - **GitHub**: https://github.com/Babelscape/rebel
+
+- **KAIROS** - Temporal and causal relationship extraction
+  - **Temporal reasoning** - Extract time-based relationships
+  - **Causal inference** - Identify cause-effect relationships
+  - **Use case**: Event analysis, temporal reasoning, causal discovery
+  - **Website**: https://github.com/isi-nlp/Kairos
+
+- **DyGIE++** - Dynamic Graph Information Extraction
+  - **Joint extraction** - Extract entities and relations together
+  - **Graph-based approach** - Dynamic graph information extraction
+  - **Use case**: Complex information extraction, research
+  - **GitHub**: https://github.com/luanyi/DyGIE
 
 ## 🔍 Search & Research Tools
 
@@ -90,8 +159,6 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: Complex workflow automation, enterprise integrations
   - **Website**: https://n8n.io/
 
-
-
 ## 🎯 Practical Use Cases & Applications
 
 ### Travel & Recommendation Systems
@@ -108,23 +175,41 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - **Term Graph RAG** - Vector similarity search for terms
   - **Use case**: Semantic search, concept mapping, knowledge discovery
 
+### Information Extraction
+- **Entity Recognition Pipeline** - Extract entities from documents
+  - **Use case**: Document processing, data extraction, knowledge graphs
+  - **Tools**: spaCy, Hugging Face, Flair, LLMs
+
+- **Relationship Extraction Pipeline** - Extract relationships between entities
+  - **Use case**: Knowledge graph construction, information extraction
+  - **Tools**: OpenIE, REBEL, KAIROS, DyGIE++
+
 ## 🚀 Getting Started
 
 ### For Beginners
 1. Start with **LangChain** for basic LLM applications
-2. Explore **Weaviate** or **Deep Lake** for vector database needs
+2. Explore **Weaviate**, **Deep Lake**, or **Zilliz Cloud** for vector database needs
 3. Try **Tavily** or **Exa** for web search integration
+4. Use **spaCy** for basic NLP tasks
 
 ### For Advanced Users
 1. Build custom agents with **Modus Framework**
 2. Implement graph databases with **Neo4j**
 3. Create specialized MCP servers
 4. Automate workflows with **Pipedream** or **n8n**
+5. Train custom NER models with **Hugging Face Transformers**
 
 ### For Business Applications
 1. Use **BBB API** for business verification
 2. Research companies with **Glean**
 3. Build custom agents with **Modus Framework**
+4. Extract business entities with **spaCy** or **Flair**
+
+### For NLP Research
+1. Use **Stanza** for multi-language NLP
+2. Implement **REBEL** for relation extraction
+3. Explore **KAIROS** for temporal reasoning
+4. Build knowledge graphs with **OpenIE** and **Neo4j**
 
 ## 📚 Learning Resources
 
@@ -132,11 +217,14 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - **Weaviate Documentation**: https://docs.weaviate.io/
 - **Modus Framework**: https://docs.hypermode.com/modus/first-modus-agent
 - **Tavily API**: https://www.tavily.com/
+- **spaCy Tutorials**: https://spacy.io/usage
+- **Hugging Face Course**: https://huggingface.co/course
 
 ## 🔗 Quick Reference Links
 
 - [Weaviate](https://weaviate.io/)
 - [Deep Lake](https://www.deeplake.ai/)
+- [Zilliz Cloud](https://zilliz.com/cloud)
 - [ActiveLoop](https://www.activeloop.ai/)
 - [Neo4j](https://neo4j.com/)
 - [Tavily](https://www.tavily.com/)
@@ -147,6 +235,13 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Modus Framework](https://github.com/hypermodeinc/modus)
 - [Pipedream](https://pipedream.com/)
 - [n8n](https://n8n.io/)
+- [spaCy](https://spacy.io/)
+- [Hugging Face](https://huggingface.co/)
+- [Stanza](https://stanfordnlp.github.io/stanza/)
+- [Flair](https://github.com/flairNLP/flair)
+- [REBEL](https://github.com/Babelscape/rebel)
+- [KAIROS](https://github.com/isi-nlp/Kairos)
+- [DyGIE++](https://github.com/luanyi/DyGIE)
 
 ---
 
