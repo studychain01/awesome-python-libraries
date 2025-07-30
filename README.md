@@ -104,6 +104,95 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: Complex information extraction, research
   - **GitHub**: https://github.com/luanyi/DyGIE
 
+## 🔒 Safety & Guardrails Frameworks
+
+### Output Validation & Structure Enforcement
+- **Guardrails.ai** - Enforces output schema and validates LLM responses
+  - **JSON validation** - Ensures LLM outputs match expected JSON structure
+  - **Custom validators** - Create domain-specific validation rules
+  - **Retry logic** - Automatically retries on invalid responses
+  - **Use case**: Production LLM applications, API response validation
+  - **Website**: https://www.guardrailsai.com/
+
+- **Outlines** - Light-weight structured output enforcement
+  - **Python typing** - Uses Python type hints for validation
+  - **Simple integration** - Easy to add to existing LLM pipelines
+  - **Use case**: Quick validation, prototyping, structured outputs
+  - **GitHub**: https://github.com/outlines-dev/outlines
+
+- **Pydantic + LLM** - Validates LLM output using Python dataclass models
+  - **Type safety** - Leverages Pydantic for robust validation
+  - **Custom models** - Define expected output structure
+  - **Use case**: Type-safe LLM applications, data validation
+  - **Documentation**: https://docs.pydantic.dev/
+
+### Content Moderation & Safety Filtering
+- **Rebuff** - Real-time moderation of LLM responses
+  - **Toxicity detection** - Identifies harmful or inappropriate content
+  - **Hallucination detection** - Detects false or fabricated information
+  - **Bias detection** - Identifies biased or unfair content
+  - **Use case**: Content moderation, safe AI deployment
+  - **Website**: https://rebuff.ai/
+
+- **Llama Guard (Meta)** - Classifies LLM input/output for harmful content
+  - **Multi-classification** - Detects various types of harmful content
+  - **Open source** - Free and customizable
+  - **Production ready** - Used by Meta for content moderation
+  - **Use case**: Content filtering, safety compliance
+  - **GitHub**: https://github.com/meta-llama/PurpleLlama
+
+- **HarmBench** - Evaluates LLMs for risk across use cases
+  - **Comprehensive evaluation** - Tests multiple safety dimensions
+  - **Benchmarking** - Compare safety performance across models
+  - **Research tool** - Academic and industry research
+  - **Use case**: Model evaluation, safety research
+  - **GitHub**: https://github.com/IBM/harmbench
+
+### Evaluation & Red Teaming
+- **RAGAS** - Evaluates RAG responses on faithfulness, fluency, and more
+  - **RAG-specific metrics** - Designed for retrieval-augmented generation
+  - **Multiple dimensions** - Faithfulness, fluency, relevance, context precision
+  - **Easy integration** - Works with popular RAG frameworks
+  - **Use case**: RAG system evaluation, quality assessment
+  - **GitHub**: https://github.com/explodinggradients/ragas
+
+- **Helm (Stanford CRFM)** - Open evaluations of safety, robustness, and more
+  - **Comprehensive benchmarks** - Multiple evaluation dimensions
+  - **Academic rigor** - Research-grade evaluation framework
+  - **Open source** - Free and extensible
+  - **Use case**: Model evaluation, research, benchmarking
+  - **Website**: https://crfm.stanford.edu/helm/
+
+- **OpenAI Eval Harness** - Build custom test suites to evaluate prompt safety
+  - **Custom evaluations** - Create domain-specific safety tests
+  - **Flexible framework** - Adaptable to different use cases
+  - **Integration** - Works with OpenAI and other LLM providers
+  - **Use case**: Custom safety testing, prompt evaluation
+  - **GitHub**: https://github.com/openai/evals
+
+### Prompt Injection Protection
+- **PromptGuard** - Detects prompt injection attempts before LLM call
+  - **Prevention** - Blocks malicious prompts before processing
+  - **Real-time detection** - Analyzes prompts for injection patterns
+  - **Multiple techniques** - Uses various detection methods
+  - **Use case**: Security, prompt injection prevention
+  - **Website**: https://promptguard.ai/
+
+- **Prompt Injection Checker** - Static/dynamic analysis of prompts
+  - **Static analysis** - Code-level prompt security analysis
+  - **Dynamic testing** - Runtime prompt injection testing
+  - **Security focus** - Specialized for prompt security
+  - **Use case**: Security auditing, vulnerability assessment
+  - **GitHub**: https://github.com/microsoft/prompt-injection-checker
+
+### Prompt Management & Safety
+- **Promptlayer** - Prompt management and evaluation platform
+  - **Prompt versioning** - Track and manage prompt changes
+  - **Evaluation tools** - Built-in safety and quality evaluation
+  - **Team collaboration** - Share and collaborate on prompts
+  - **Use case**: Prompt engineering, team collaboration, safety tracking
+  - **Website**: https://promptlayer.com/
+
 ## 🔍 Search & Research Tools
 
 ### Web Search APIs
@@ -198,12 +287,16 @@ A curated collection of powerful Python libraries and tools organized by use cas
 3. Create specialized MCP servers
 4. Automate workflows with **Pipedream** or **n8n**
 5. Train custom NER models with **Hugging Face Transformers**
+6. Add safety guardrails with **Guardrails.ai** or **Rebuff**
+7. Evaluate RAG systems with **RAGAS**
 
 ### For Business Applications
 1. Use **BBB API** for business verification
 2. Research companies with **Glean**
 3. Build custom agents with **Modus Framework**
 4. Extract business entities with **spaCy** or **Flair**
+5. Implement content moderation with **Llama Guard** or **Rebuff**
+6. Add prompt injection protection with **PromptGuard**
 
 ### For NLP Research
 1. Use **Stanza** for multi-language NLP
@@ -242,6 +335,12 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [REBEL](https://github.com/Babelscape/rebel)
 - [KAIROS](https://github.com/isi-nlp/Kairos)
 - [DyGIE++](https://github.com/luanyi/DyGIE)
+- [Guardrails.ai](https://www.guardrailsai.com/)
+- [Rebuff](https://rebuff.ai/)
+- [Llama Guard](https://github.com/meta-llama/PurpleLlama)
+- [RAGAS](https://github.com/explodinggradients/ragas)
+- [Promptlayer](https://promptlayer.com/)
+- [PromptGuard](https://promptguard.ai/)
 
 ---
 
