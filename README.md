@@ -119,6 +119,8 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Simple integration** - Easy to add to existing LLM pipelines
   - **Use case**: Quick validation, prototyping, structured outputs
   - **GitHub**: https://github.com/outlines-dev/outlines
+  - **GitHub**: https://github.com/dottxt-ai/outlines?tab=readme-ov-file
+  
 
 - **Pydantic + LLM** - Validates LLM output using Python dataclass models
   - **Type safety** - Leverages Pydantic for robust validation
@@ -141,49 +143,53 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: Content filtering, safety compliance
   - **GitHub**: https://github.com/meta-llama/PurpleLlama
 
-- **HarmBench** - Evaluates LLMs for risk across use cases
-  - **Comprehensive evaluation** - Tests multiple safety dimensions
-  - **Benchmarking** - Compare safety performance across models
-  - **Research tool** - Academic and industry research
-  - **Use case**: Model evaluation, safety research
-  - **GitHub**: https://github.com/IBM/harmbench
+- **HarmBench (CAIS)** - Testing framework for LLM safety evaluation (like pytest for AI)
+  - **Comprehensive testing** - Tests multiple safety dimensions and harmful behaviors
+  - **Red teaming methods** - 18+ automated red teaming methods included
+  - **Model support** - 33+ target LLMs and defenses evaluated
+  - **Testing framework** - Standardized evaluation pipeline for AI safety testing
+  - **Use case**: LLM testing, safety evaluation, red teaming, automated testing
+  - **Website**: https://www.harmbench.org/
+  - **GitHub**: https://github.com/centerforaisafety/HarmBench
 
 ### Evaluation & Red Teaming
-- **RAGAS** - Evaluates RAG responses on faithfulness, fluency, and more
-  - **RAG-specific metrics** - Designed for retrieval-augmented generation
+- **RAGAS** - Testing framework for RAG systems (like pytest for RAG pipelines)
+  - **RAG-specific metrics** - Designed for retrieval-augmented generation evaluation
   - **Multiple dimensions** - Faithfulness, fluency, relevance, context precision
-  - **Easy integration** - Works with popular RAG frameworks
-  - **Use case**: RAG system evaluation, quality assessment
+  - **Synthetic data generation** - Creates high-quality evaluation datasets
+  - **Online monitoring** - Production monitoring and quality assessment
+  - **Easy integration** - Works with popular RAG frameworks (LangChain, LlamaIndex)
+  - **Use case**: RAG system testing, quality assessment, automated evaluation
+  - **Website**: https://www.ragas.io/
   - **GitHub**: https://github.com/explodinggradients/ragas
 
-- **Helm (Stanford CRFM)** - Open evaluations of safety, robustness, and more
+- **Helm (Stanford CRFM)** - Benchmarking framework for LLM evaluation (like pytest for benchmarking)
   - **Comprehensive benchmarks** - Multiple evaluation dimensions
   - **Academic rigor** - Research-grade evaluation framework
   - **Open source** - Free and extensible
-  - **Use case**: Model evaluation, research, benchmarking
+  - **Benchmarking framework** - Standardized evaluation pipeline for LLM benchmarking
+  - **Use case**: Model evaluation, research, benchmarking, automated testing
   - **Website**: https://crfm.stanford.edu/helm/
 
-- **OpenAI Eval Harness** - Build custom test suites to evaluate prompt safety
-  - **Custom evaluations** - Create domain-specific safety tests
-  - **Flexible framework** - Adaptable to different use cases
-  - **Integration** - Works with OpenAI and other LLM providers
-  - **Use case**: Custom safety testing, prompt evaluation
+- **OpenAI Eval Harness** - Unit test style framework for LLMs (like pytest for LLM testing)
+  - **Unit-style tests** - Run unit tests on LLM outputs with expected answers
+  - **Custom grading logic** - Define expected answers and grading criteria
+  - **Task-specific evals** - SQL generation, chain-of-thought reasoning, bias detection
+  - **Safety testing** - Style checks, safety refusals, custom safety tests
+  - **Automated testing** - Run tests across models or prompt versions
+  - **Use case**: LLM unit testing, custom evaluation, automated testing
   - **GitHub**: https://github.com/openai/evals
 
 ### Prompt Injection Protection
-- **PromptGuard** - Detects prompt injection attempts before LLM call
+- **Llama Prompt Guard 2 (Meta)** - Detects prompt injection and jailbreaking attacks
   - **Prevention** - Blocks malicious prompts before processing
+  - **Prompt Injection Checker** - Blocks bad prompts
   - **Real-time detection** - Analyzes prompts for injection patterns
-  - **Multiple techniques** - Uses various detection methods
+  - **Multiple model sizes** - 86M (multilingual) and 22M (English-focused) versions
+  - **Llama integration** - Designed for Llama 3 and Llama 4 models
   - **Use case**: Security, prompt injection prevention
-  - **Website**: https://promptguard.ai/
+  - **Documentation**: https://www.llama.com/docs/model-cards-and-prompt-formats/prompt-guard/
 
-- **Prompt Injection Checker** - Static/dynamic analysis of prompts
-  - **Static analysis** - Code-level prompt security analysis
-  - **Dynamic testing** - Runtime prompt injection testing
-  - **Security focus** - Specialized for prompt security
-  - **Use case**: Security auditing, vulnerability assessment
-  - **GitHub**: https://github.com/microsoft/prompt-injection-checker
 
 ### Prompt Management & Safety
 - **Promptlayer** - Prompt management and evaluation platform
@@ -296,7 +302,7 @@ A curated collection of powerful Python libraries and tools organized by use cas
 3. Build custom agents with **Modus Framework**
 4. Extract business entities with **spaCy** or **Flair**
 5. Implement content moderation with **Llama Guard** or **Rebuff**
-6. Add prompt injection protection with **PromptGuard**
+6. Add prompt injection protection with **Llama Prompt Guard 2**
 
 ### For NLP Research
 1. Use **Stanza** for multi-language NLP
@@ -340,7 +346,8 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)
 - [RAGAS](https://github.com/explodinggradients/ragas)
 - [Promptlayer](https://promptlayer.com/)
-- [PromptGuard](https://promptguard.ai/)
+- [Llama Prompt Guard 2](https://www.llama.com/docs/model-cards-and-prompt-formats/prompt-guard/)
+- [HarmBench](https://github.com/centerforaisafety/HarmBench)
 
 ---
 
