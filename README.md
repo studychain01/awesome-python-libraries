@@ -213,6 +213,13 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: AI-powered search, research automation, enterprise LLM applications
   - **Website**: https://exa.ai/
 
+- **Browserbase** - Browser automation and web scraping API
+  - **Browser automation** - Control real browsers for complex web interactions
+  - **Web scraping** - Extract data from dynamic websites and SPAs
+  - **JavaScript rendering** - Handle JavaScript-heavy sites and modern web apps
+  - **Use case**: Web scraping, browser automation, data extraction
+  - **Website**: https://browserbase.com/
+
 ### Web Scraping
 - **Firecrawl** (firecrawl.dev) - Web scraping tool
   - **Use case**: Data extraction, content monitoring, research automation
@@ -253,6 +260,37 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Extensive integrations** - 200+ nodes for different services
   - **Use case**: Complex workflow automation, enterprise integrations
   - **Website**: https://n8n.io/
+
+- **Composio** - AI-native workflow automation platform
+  - **AI-powered workflows** - Natural language workflow creation
+  - **No-code automation** - Build complex workflows without coding
+  - **Enterprise integrations** - Connect to business systems and APIs
+  - **Use case**: AI workflow automation, business process automation
+  - **Website**: https://composio.dev/
+
+- **Apify** - Web scraping and automation platform
+  - **Web scraping tools** - Extract data from websites at scale
+  - **Automation platform** - Build and deploy web automation
+  - **Cloud infrastructure** - Scalable scraping and automation
+  - **Use case**: Web scraping, data extraction, automation
+  - **Website**: https://apify.com/
+
+- **Stagehand ** - AI-native browser automation framework
+  - **AI-driven workflows** - Natural language browser control
+  - **Playwright compatibility** - Works with existing Playwright scripts
+  - **Self-healing automation** - Adapts to page changes automatically
+  - **Deterministic automation** - Atomic steps for reliable execution
+  - **Use case**: Browser automation, AI agents, web scraping
+  - **Website**: https://www.stagehand.dev/
+
+- **Browser Use** - AI browser agent for repetitive tasks
+  - **No-code automation** - Automate repetitive online tasks without coding
+  - **Data scraping** - Extract data from complex websites with AI
+  - **Form filling** - Automatically fill out online forms
+  - **Visual interface** - Chat-based task execution
+  - **Open source** - Largest open source project for browser agents
+  - **Use case**: Browser automation, data entry, form filling, web scraping
+  - **Website**: https://browser-use.com/
 
 ## 🎯 Practical Use Cases & Applications
 
@@ -328,12 +366,17 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Neo4j](https://neo4j.com/)
 - [Tavily](https://www.tavily.com/)
 - [Exa](https://exa.ai/)
+- [Browserbase](https://browserbase.com/)
 - [Firecrawl](https://www.firecrawl.dev/)
 - [BBB](https://www.bbb.org/)
 - [Glean](https://glean.com/)
 - [Modus Framework](https://github.com/hypermodeinc/modus)
 - [Pipedream](https://pipedream.com/)
 - [n8n](https://n8n.io/)
+- [Composio](https://composio.dev/)
+- [Apify](https://apify.com/)
+- [Stagehand](https://www.stagehand.dev/)
+- [Browser Use](https://browser-use.com/)
 - [spaCy](https://spacy.io/)
 - [Hugging Face](https://huggingface.co/)
 - [Stanza](https://stanfordnlp.github.io/stanza/)
