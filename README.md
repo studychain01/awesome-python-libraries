@@ -243,6 +243,36 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Documentation**: https://docs.hypermode.com/modus/first-modus-agent
   - **Use case**: Custom AI agents, workflow automation, task-specific AI
 
+- **Mastra** - TypeScript Agent Framework for AI features
+  - **Modern JavaScript stack** - Built for prototyping and productionizing AI features
+  - **Agent orchestration** - Create flexible multi-agent architectures
+  - **Workflow management** - Durable graph-based state machines with tracing
+  - **Unified RAG** - Vector store integration with metadata filtering
+  - **Observability** - Performance metrics, evals, and tracing
+  - **Use case**: AI agent development, workflow automation, TypeScript AI applications
+  - **Website**: https://mastra.ai/
+
+### Voice AI & Communication
+- **Vapi** - Voice AI agents for developers
+  - **Voice AI platform** - Most configurable API for building voice AI products
+  - **Inbound/Outbound calls** - Handle millions of calls with enterprise reliability
+  - **Multilingual support** - 100+ languages including English, Spanish, Mandarin
+  - **Tool calling** - Plug in APIs as tools for intelligent data fetching
+  - **Enterprise features** - 99.99% uptime, SOC2/HIPAA/PCI compliant
+  - **40+ integrations** - OpenAI, Anthropic, Twilio, Salesforce, and more
+  - **Use case**: Voice AI applications, call center automation, phone operations
+  - **Website**: https://vapi.ai/
+
+### Personal Data & Context Management
+- **Basic** - Universal context for LLMs with Personal Data Stores
+  - **No-DB, no-auth design** - Simple data storage without complex infrastructure
+  - **Personal Data Stores** - Access user context across applications
+  - **Open federated protocol** - Data is everlasting and portable
+  - **AI app memory layer** - Store and access user context from previous interactions
+  - **Enterprise support** - Teams from Cornell, YC, Browserbase, Lemniscap, EYP
+  - **Use case**: AI app memory, user context management, personal data storage
+  - **Website**: https://basic.tech/
+
 ### MCP Servers
 - **Magic MCP** - Popular MCP server implementation
 - **Use case**: Model context protocol implementations, AI tool integration
@@ -267,6 +297,16 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Enterprise integrations** - Connect to business systems and APIs
   - **Use case**: AI workflow automation, business process automation
   - **Website**: https://composio.dev/
+
+- **Sim** - Visual AI workflow editor for building AI-powered applications
+  - **Visual workflow editor** - Drag and drop components on canvas without code
+  - **Multi-model AI support** - Connect to OpenAI, Anthropic, Google, Groq, Cerebras, Ollama
+  - **60+ pre-built tools** - Gmail, Slack, Notion, Google Sheets, Airtable, Supabase, Pinecone
+  - **Flexible execution** - Run via chat, REST API, webhooks, scheduled jobs, or external triggers
+  - **Real-time collaboration** - Work simultaneously with team members like Google Docs
+  - **Production deployment** - Deploy as APIs, integrate with SDK, or embed as plugins
+  - **Use case**: AI assistants, content generation, data processing, process automation, API orchestration
+  - **Website**: https://www.sim.ai/
 
 - **Apify** - Web scraping and automation platform
   - **Web scraping tools** - Extract data from websites at scale
@@ -374,9 +414,13 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Pipedream](https://pipedream.com/)
 - [n8n](https://n8n.io/)
 - [Composio](https://composio.dev/)
+- [Sim](https://www.sim.ai/)
 - [Apify](https://apify.com/)
 - [Stagehand](https://www.stagehand.dev/)
 - [Browser Use](https://browser-use.com/)
+- [Mastra](https://mastra.ai/)
+- [Vapi](https://vapi.ai/)
+- [Basic](https://basic.tech/)
 - [spaCy](https://spacy.io/)
 - [Hugging Face](https://huggingface.co/)
 - [Stanza](https://stanfordnlp.github.io/stanza/)
