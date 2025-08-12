@@ -9,6 +9,21 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Header-based chunking** - Break documents by headers for better context
   - **Sentence-based chunking** - Break documents by sentences for granular processing
   - **Use case**: Document processing, content summarization, Q&A systems
+  - **Install**: `pip install langchain langchain-openai langchain-core langchain_community`
+
+- **Chroma** - Vector database for AI applications
+  - **Embedding storage** - Store and query vector embeddings
+  - **LangChain integration** - Seamless integration with LangChain workflows
+  - **Local deployment** - Run locally or in the cloud
+  - **Use case**: RAG applications, semantic search, document retrieval
+  - **Install**: `pip install langchain_chroma`
+
+- **Sentence Transformers** - State-of-the-art sentence embeddings
+  - **Pre-trained models** - High-quality embeddings for 100+ languages
+  - **Easy integration** - Simple API for text-to-vector conversion
+  - **Multiple models** - BERT, RoBERTa, DistilBERT, and more
+  - **Use case**: Semantic search, text similarity, RAG applications
+  - **Install**: `pip install sentence_transformers`
 
 ### Vector Databases & Embeddings
 - **Weaviate** (weaviate.io) - Vector database for AI applications
@@ -43,6 +58,21 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Website**: https://neo4j.com/
 
 ### NLP & Text Processing
+#### Document Processing
+- **docx2txt** - Extract text from Microsoft Word documents
+  - **Word document parsing** - Convert .docx files to plain text
+  - **Simple API** - Easy-to-use text extraction
+  - **No dependencies** - Lightweight library with minimal requirements
+  - **Use case**: Document text extraction, content processing, RAG applications
+  - **Install**: `pip install docx2txt`
+
+- **PyPDF** - PDF processing and text extraction
+  - **PDF text extraction** - Extract text from PDF documents
+  - **PDF manipulation** - Create, modify, and merge PDFs
+  - **Metadata handling** - Access PDF metadata and properties
+  - **Use case**: PDF processing, document analysis, content extraction
+  - **Install**: `pip install pypdf`
+
 #### Named Entity Recognition (NER)
 - **spaCy** - Industrial-strength NLP library
   - **Pre-trained models** - High-accuracy NER models for multiple languages
@@ -402,6 +432,10 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Weaviate](https://weaviate.io/)
 - [Deep Lake](https://www.deeplake.ai/)
 - [Zilliz Cloud](https://zilliz.com/cloud)
+- [Chroma](https://www.trychroma.com/)
+- [Sentence Transformers](https://www.sbert.net/)
+- [PyPDF](https://pypdf.readthedocs.io/)
+- [docx2txt](https://github.com/ankushshah89/python-docx2txt)
 - [ActiveLoop](https://www.activeloop.ai/)
 - [Neo4j](https://neo4j.com/)
 - [Tavily](https://www.tavily.com/)
