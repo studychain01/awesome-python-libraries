@@ -73,6 +73,14 @@ A curated collection of powerful Python libraries and tools organized by use cas
   - **Use case**: PDF processing, document analysis, content extraction
   - **Install**: `pip install pypdf`
 
+- **html2text** - Convert HTML to clean, readable text
+  - **HTML parsing** - Convert HTML documents to plain text or Markdown
+  - **Clean formatting** - Preserves structure while removing HTML tags
+  - **Markdown output** - Option to convert HTML to Markdown format
+  - **Use case**: Web scraping, content extraction, HTML processing, RAG applications
+  - **Install**: `pip install html2text`
+  - **Usage**: `from html2text import html2text`
+
 #### Named Entity Recognition (NER)
 - **spaCy** - Industrial-strength NLP library
   - **Pre-trained models** - High-accuracy NER models for multiple languages
@@ -436,6 +444,7 @@ A curated collection of powerful Python libraries and tools organized by use cas
 - [Sentence Transformers](https://www.sbert.net/)
 - [PyPDF](https://pypdf.readthedocs.io/)
 - [docx2txt](https://github.com/ankushshah89/python-docx2txt)
+- [html2text](https://github.com/Alir3z4/html2text)
 - [ActiveLoop](https://www.activeloop.ai/)
 - [Neo4j](https://neo4j.com/)
 - [Tavily](https://www.tavily.com/)
